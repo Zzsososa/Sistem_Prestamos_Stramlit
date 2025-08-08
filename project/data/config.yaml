@@ -1,0 +1,20 @@
+# Configuration for Selenium Tests
+browser:
+  name: firefox  # Usando Firefox como navegador principal
+  headless: false  # Set to true for CI/CD environments
+
+application:
+  base_url: http://localhost:8501  # Streamlit default port
+  
+credentials:
+  admin:
+    username: admin
+    password: admin123
+  user:
+    username: user
+    password: user123
+
+timeouts:
+  default: 10  # Default timeout in seconds
+  page_load: 30
+  element_wait: 5
