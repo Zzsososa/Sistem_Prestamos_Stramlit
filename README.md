@@ -31,9 +31,8 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 1.  **Clona el repositorio:**
     ```bash
-    git clone <URL-DEL-REPOSITORIO>
-    cd <NOMBRE-DEL-DIRECTORIO>
-    ```
+    git clone https://github.com/Zzsososa/Sistem_Prestamos_Stramlit.git
+    cd prestamos_streamlit
 
 2.  **Crea un entorno virtual e instala las dependencias:**
     ```bash
