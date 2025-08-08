@@ -30,6 +30,7 @@ Quisiera agradecer a **Luis Aneuris Tavarez** y a **Kelyn Tejada Belliard** por 
 El repositorio está organizado de la siguiente manera:
 
 -   `project/`: Contiene todos los archivos relacionados con las pruebas automatizadas, incluyendo los scripts de prueba, configuraciones y resultados.
+-   `project/result/`: Contiene el archivo `report.html` con el informe de las pruebas automatizadas.
 -   `app.py`: El archivo principal para ejecutar la aplicación Streamlit.
 -   `requirements.txt`: Lista de dependencias de Python para el proyecto.
 
