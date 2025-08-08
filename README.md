@@ -17,7 +17,7 @@ El objetivo es demostrar la aplicación de pruebas automatizadas en un proyecto 
 
 ## Agradecimientos
 
-Quisiera agradecer a **Luis Aneuris Tavarez** por su apoyo en esta asignación, la cual estoy seguro que me beneficiará a la hora de trabajar en ambientes laborales futuros.
+Quisiera agradecer a **Luis Aneuris Tavarez** y a **Kelyn Tejada Belliard** por su apoyo en esta asignación, la cual estoy seguro que me beneficiará a la hora de trabajar en ambientes laborales futuros.
 
 ## Tecnologías Utilizadas
 
@@ -44,10 +44,10 @@ Para ejecutar este proyecto localmente, sigue estos pasos:
 
 3.  **Ejecuta la aplicación de Streamlit:**
     ```bash
-    streamlit run main.py
+    streamlit run app.py
     ```
 
 4.  **Ejecuta las pruebas de Selenium:**
     ```bash
-    pytest
+    python -m pytest tests\test_login.py tests\test_cliente_limite.py tests\test_cliente_eliminar_negativo.py tests\test_cliente_actualizar.py tests/test_cliente_busqueda.py -v --html=result\report.html
     ```
