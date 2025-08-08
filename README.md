@@ -25,6 +25,14 @@ Quisiera agradecer a **Luis Aneuris Tavarez** y a **Kelyn Tejada Belliard** por 
 -   **Framework Web**: Streamlit
 -   **Pruebas Automatizadas**: Selenium
 
+## Estructura del Proyecto
+
+El repositorio está organizado de la siguiente manera:
+
+-   `project/`: Contiene todos los archivos relacionados con las pruebas automatizadas, incluyendo los scripts de prueba, configuraciones y resultados.
+-   `app.py`: El archivo principal para ejecutar la aplicación Streamlit.
+-   `requirements.txt`: Lista de dependencias de Python para el proyecto.
+
 ## Cómo Empezar
 
 Para ejecutar este proyecto localmente, sigue estos pasos:
